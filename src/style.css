@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    margin: 0;
+    padding: 0;
+    @apply bg-black;
+}
+
+
+.container{
+    @apply grid-cols-3 py-10;
+}
+
+.container-search{
+    @apply content-center py-32;
+}
+
+input[type=text]{
+    padding: 15px;
+    @apply w-2/3 rounded-md border-white border font-bold text-lg;
+}
+
+/* input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  } */
+
+.button{
+    @apply py-4 px-8 relative left-4 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500  hover:border-white hover:border ;
+}
+
+.names{
+    @apply text-stone-50 font-bold text-xl subpixel-antialiased;
+}
+
+/* .collapse{
+    @apply text-center;
+} */
+
+#menu1{
+    color: rgb(255 255 255);
+     font-size: 1rem;
+      font-weight: 600; 
+      font-family:"Roboto", sans-serif;
+}
+
+#menu1:hover{
+    color: rgb(74 222 128);
+     font-size: 1rem;
+      font-weight: 600; 
+      font-family:"Roboto", sans-serif;
+}
+
+#menu2{
+    color: rgb(255 255 255);
+     font-size: 1rem;
+      font-weight: 600; 
+      font-family:"Roboto", sans-serif;
+}
+
+#menu2:hover{
+    color: rgb(74 222 128);
+     font-size: 1rem;
+      font-weight: 600; 
+      font-family:"Roboto", sans-serif;
+}
+
+#menu3{
+    color: rgb(255 255 255);
+     font-size: 1rem;
+      font-weight: 600; 
+      font-family:"Roboto", sans-serif;
+}
+
+#menu3:hover{
+    color: rgb(74 222 128);
+     font-size: 1rem;
+      font-weight: 600; 
+      font-family:"Roboto", sans-serif;
+}
+
+
+.phoneInfo{
+    font-family: sans-serif;
+    @apply text-9xl text-green-500 text-center;
+}
+
+.container-table{
+    @apply grid-cols-1 gap-5 h-48 relative inset-auto py-[-1];
+}
+
+.grid-container{
+    @apply grid grid-cols-5 gap-5;
+}
+
+.block-container{
+    height: 200px;
+    width: 200px;
+    background-color: #000;
+    @apply relative left-16;
+}
+
+.bodylink{
+    @apply text-green-500 relative left-16;
+}
+

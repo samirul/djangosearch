@@ -1,0 +1,64 @@
+Details,Features,Specifications
+NETWORK,Technology,GSM / HSPA / LTE
+,2G bands,GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2
+,3G bands,HSDPA 850 / 900 / 1900 / 2100
+,4G bands,"1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 28, 29, 32, 34, 38, 39, 40, 41, 46"
+,Speed,"HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat18 (Cat20 Ultimate edition) 1200/150 Mbps"
+,,
+LAUNCH,Announced,"2019, July 22"
+,Status,"Available. Released 2019, September"
+,,
+BODY,Dimensions,171 x 77.6 x 9.5 mm (6.73 x 3.06 x 0.37 in)
+,Weight,240 g (8.47 oz)
+,Build,"Glass front (Gorilla Glass 6), glass back (Gorilla Glass 3), aluminum frame"
+,SIM,"Dual SIM (Nano-SIM, dual stand-by)"
+,,RGB light panel (on the back)
+,,
+DISPLAY,Type,"AMOLED, 1B colors, 120Hz, HDR10"
+,Size,"6.59 inches, 106.6 cm2 (~80.3% screen-to-body ratio)"
+,Resolution,"1080 x 2340 pixels, 19.5:9 ratio (~391 ppi density)"
+,Protection,Corning Gorilla Glass 6
+,,
+PLATFORM,OS,"Android 9.0 (Pie), ROG UI"
+,Chipset,Qualcomm SM8150 Snapdragon 855+ (7 nm)
+,CPU,Octa-core (1x2.96 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)
+,GPU,Adreno 640 (700 MHz)
+,,
+MEMORY,Card slot,No
+,Internal,"128GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM"
+,,UFS 3.0
+,,
+MAIN CAMERA,Dual,"48 MP, f/1.8, 26mm (wide), 1/2.0"", 0.8µm, PDAF, Laser AF"
+,,"13 MP, f/2.4, 11mm (ultrawide)"
+,Features,"LED flash, HDR, panorama"
+,Video,"4K@30/60fps, 1080p@30/60/240fps, 720p@480fps; gyro-EIS (except @240/480fps)"
+,,
+SELFIE CAMERA,Single,"24MP, f/2.2, 0.9µm"
+,Features,"Panorama, HDR"
+,Video,1080p@30fps
+,,
+COMMS,WLAN,"Wi-Fi 802.11 a/b/g/n/ac/ad, dual-band, Wi-Fi Direct, hotspot"
+,Bluetooth,"5.0, A2DP, LE, aptX HD"
+,GPS,"Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS"
+,NFC,Yes
+,Radio,FM radio
+,USB,"USB Type-C 3.1; accessory connector, USB On-The-Go"
+,,
+FEATURES,Sensors,"Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+,,
+BATTERY,Type,"Li-Po 6000 mAh, non-removable"
+,Charging,Fast charging 30W
+,,Quick Charge 4.0
+,,Reverse charging 10W
+,,
+MISC,Colors,"Matte Black, Glossy Black"
+,Models,"ASUS_I001D, I001DA, I001DE, I001DC, I001DB, I001D"
+,Price,About 1070 EUR
+,,
+TESTS,Performance,"AnTuTu: 398935 (v7), 483239 (v8)"
+,,GeekBench: 10923 (v4.4)
+,,GFXBench: 40fps (ES 3.1 onscreen)
+,Display,Contrast ratio: Infinite (nominal)
+,Camera,Photo / Video
+,Loudspeaker,-19.5 LUFS (Excellent)
+,Battery life,Endurance rating 114h

@@ -1,0 +1,18 @@
+{% block content %}
+
+<div class="container">
+  <div class="grid-container">
+    {% for phone in phoneNamess %}
+    <div class="block-container">
+      <div class="card" style="width: 18rem;">
+        <a href="{% url 'phones' phone.id %}" aria-label = "rog"><img src="/static/images/{{phone.avatar}}" width="200" height="200"  class="card-img-top" alt="..."></a>
+        <div class="card-body bg-black">
+          <a href="{% url 'phones' phone.id %}" aria-label = "rog"><p class="card-text text-green-500 text-center" >{{phone.phoneName}}</p></a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

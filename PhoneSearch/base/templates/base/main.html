@@ -1,0 +1,39 @@
+{% extends 'base/index.html' %}
+
+{% block content %}
+
+<div class="container grids">
+    <div class="phoneInfo">
+        Phone Info
+    </div>
+    <div class="container-search">
+        <div class="container text-center">
+            <form class="Search" method="GET" action = "{% url 'home' %}">
+                <input type="text" class="search" placeholder="Search" name="q" />
+                <button type="submit" class="button">
+                    <p class="names">Search</p>
+                </button>
+            </form>
+        </div>
+    </div> 
+</div>
+
+
+
+{% include 'base/body.html' %}
+
+<!-- <div class=" container relative bottom-full">
+    <footer class="py-5 my-6">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Company, Inc</p>
+    </footer>
+</div> -->
+
+
+{% endblock content %}

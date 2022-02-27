@@ -1,0 +1,785 @@
+{% block content %}
+{% include 'base/main.html' %}
+<div class="container-table">
+    <div>
+        <p class="text-slate-300 relative inset-auto text-center text-4xl font-bold">
+            Know about your phone {{phonest.phoneName}} <br><br>
+        </p>
+    </div>
+
+    {% for sp in spll.iterator %}
+    <div class="container  w-fit">
+        <style type="text/css">
+            .tg {
+                border-collapse: collapse;
+                border-color: #C44D58;
+                border-spacing: 0;
+            }
+
+            .tg td {
+                background-color: #F9CDAD;
+                border-color: #C44D58;
+                border-style: solid;
+                border-width: 1px;
+                color: #002b36;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                overflow: hidden;
+                padding: 10px 5px;
+                word-break: normal;
+            }
+
+            .tg th {
+                background-color: #FE4365;
+                border-color: #C44D58;
+                border-style: solid;
+                border-width: 1px;
+                color: #fdf6e3;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                overflow: hidden;
+                padding: 10px 5px;
+                word-break: normal;
+            }
+
+            .tg .tg-5qec {
+                background-color: #ffffff;
+                border-color: #680100;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-42uk {
+                background-color: #feffc8;
+                border-color: inherit;
+                color: #000000;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-4zno {
+                border-color: #680100;
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-fq1u {
+                background-color: #fe0000;
+                border-color: inherit;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-rc98 {
+                background-color: #FAFAFA;
+                border-color: #000000;
+                color: #7D7464;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-z30k {
+                background-color: #ffffff;
+                border-color: #343434;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-c7df {
+                background-color: #fe0000;
+                border-color: inherit;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-uk3z {
+                background-color: #fe0000;
+                border-color: #000000;
+                color: #fafafa;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-rze5 {
+                background-color: #38fff8;
+                border-color: inherit;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-u0r1 {
+                background-color: #FAFAFA;
+                border-color: #680100;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: underline;
+                vertical-align: top
+            }
+
+            .tg .tg-lzu7 {
+                background-color: #ffffff;
+                border-color: inherit;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-2a5u {
+                background-color: #feffc8;
+                border-color: inherit;
+                color: #D50000;
+                text-align: center;
+                text-decoration: underline;
+                vertical-align: top
+            }
+
+            .tg .tg-c3ow {
+                border-color: inherit;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-2s2a {
+                background-color: #ff002e;
+                border-color: #000000;
+                color: #ffffff;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-qk1a {
+                background-color: #38fff8;
+                border-color: #38fff8;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-ipo5 {
+                background-color: #FAFAFA;
+                border-color: #330001;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-6ldz {
+                background-color: #ffffff;
+                border-color: #000000;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-t02l {
+                background-color: #feffc8;
+                border-color: #343434;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-u8ng {
+                border-color: #343434;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-3x8r {
+                border-color: #330001;
+                font-size: 16px;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-npal {
+                background-color: #FAFAFA;
+                border-color: #343434;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-o52w {
+                background-color: #feffc8;
+                border-color: inherit;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-3jj4 {
+                background-color: #feffc8;
+                border-color: #000000;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-h7c6 {
+                background-color: #38fff8;
+                border-color: inherit;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-p8fx {
+                background-color: #ff002e;
+                border-color: #000000;
+                color: #ffffff;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-kmeh {
+                background-color: #feffc8;
+                border-color: inherit;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-g6x6 {
+                background-color: #FAFAFA;
+                border-color: #000000;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-imp1 {
+                background-color: #38fff8;
+                border-color: #38fff8;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-yjzu {
+                background-color: #ffffff;
+                border-color: #330001;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-ef9z {
+                background-color: #38fff8;
+                border-color: #38fff8;
+                text-align: left;
+                vertical-align: top
+            }
+
+            .tg .tg-ij0k {
+                background-color: #38fff8;
+                border-color: #38fff8;
+                text-align: left;
+                vertical-align: top
+            }
+
+            .tg .tg-0pky {
+                border-color: inherit;
+                text-align: left;
+                vertical-align: top
+            }
+
+            .tg .tg-5bom {
+                background-color: #FAFAFA;
+                border-color: #000000;
+                color: #7D7464;
+                font-weight: bold;
+                text-align: left;
+                vertical-align: top
+            }
+
+            .tg .tg-h1wt {
+                background-color: #FAFAFA;
+                border-color: #680100;
+                color: #6200c9;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-90sl {
+                background-color: #fe0000;
+                border-color: #680100;
+                color: #ffffff;
+                text-align: center;
+                vertical-align: top
+            }
+
+        </style>
+        <table class="tg">
+            <thead>
+                <tr>
+                    <th class="tg-u8ng">Details</th>
+                    <th class="tg-4zno">Features</th>
+                    <th class="tg-3x8r"><span style="font-weight:bold">Specifications</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-c7df"><span style="color:#FFF">NETWORK</span></td>
+                    <td class="tg-npal"><a href="" target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Technology</span></a>
+                    </td>
+                    <td class="tg-42uk"><a href="" target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:bold;font-style:inherit">{{sp.technology}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-z30k">2G bands</td>
+                    <td class="tg-o52w"><span style="font-weight:bold;font-style:normal">{{sp.twogBands}}
+                             &amp; SIM 2</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-npal">3G bands</td>
+                    <td class="tg-o52w"><span style="font-weight:bold;font-style:normal">{{sp.threegBands}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-npal">4G bands</td>
+                    <td class="tg-o52w"><span style="font-weight:bold;font-style:normal">{{sp.fourgBands}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-npal">5G bands</td>
+                    <td class="tg-3jj4"><span style="font-style:normal">{{sp.fivegBands}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-npal">Speed</td>
+                    <td class="tg-3jj4"><span style="font-style:normal">{{sp.speed}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-h7c6"></td>
+                    <td class="tg-rze5"></td>
+                    <td class="tg-h7c6"></td>
+                </tr>
+                <tr>
+                    <td class="tg-p8fx">LAUNCH</td>
+                    <td class="tg-6ldz">Announced</td>
+                    <td class="tg-o52w">{{sp.announced}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-6ldz">Status</td>
+                    <td class="tg-kmeh"><span style="font-weight:bold">{{sp.status}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-h7c6"></td>
+                    <td class="tg-rze5"></td>
+                    <td class="tg-h7c6"></td>
+                </tr>
+                <tr>
+                    <td class="tg-2s2a"><span style="font-weight:bold">BODY</span></td>
+                    <td class="tg-g6x6"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Dimensions</span></a>
+                    </td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.dimensions}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-g6x6"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Weight</span></a>
+                    </td>
+                    <td class="tg-o52w"><span style="font-style:normal"</span>{{sp.weight}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-g6x6"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Build</span></a>
+                    </td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.build}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-g6x6"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">SIM</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.sim}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-rc98"><span style="font-weight:700;font-style:normal;color:#7D7464"> </span></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.rgb}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-imp1"></td>
+                    <td class="tg-qk1a"></td>
+                    <td class="tg-imp1"></td>
+                </tr>
+                <tr>
+                    <td class="tg-fq1u"><span style="font-weight:bold;color:#FFF">DISPLAY</span></td>
+                    <td class="tg-yjzu">Type</td>
+                    <td class="tg-o52w">{{sp.typess}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-ipo5">Size</td>
+                    <td class="tg-o52w">{{sp.size}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-ipo5">Resolution</td>
+                    <td class="tg-o52w">{{sp.resolution}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-ipo5">Protection</td>
+                    <td class="tg-o52w">{{sp.protection}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-imp1"></td>
+                    <td class="tg-qk1a"></td>
+                    <td class="tg-imp1"></td>
+                </tr>
+                <tr>
+                    <td class="tg-uk3z"><span style="font-weight:bold">PLATFORM</span></td>
+                    <td class="tg-g6x6">OS</td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.os}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-g6x6">Chipset</td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.chipset}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-g6x6">CPU</td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.cpu}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow"></td>
+                    <td class="tg-g6x6">GPU</td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.gpu}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-ef9z"></td>
+                </tr>
+                <tr>
+                    <td class="tg-fq1u"><span style="font-weight:bold;color:#FFF">MEMORY</span></td>
+                    <td class="tg-g6x6"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Card slot</span></a></td>
+                    <td class="tg-3jj4"><span style="font-style:normal">{{sp.cardSlot}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-g6x6"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Internal</span></a></td>
+                    <td class="tg-t02l"><span style="font-style:normal">{{sp.internal}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-g6x6"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Storage</span></a></td>
+                    <td class="tg-t02l"><span style="font-style:normal">{{sp.storage}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-ef9z"></td>
+                </tr>
+                <tr>
+                    <td class="tg-fq1u"><span style="font-weight:bold;color:#FFF">MAIN CAMERA</span></td>
+                    <td class="tg-h1wt"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Dual</span></a></td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.dual}}</span><br><span style="font-weight:bold;font-style:normal"></span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-h1wt"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Features</span></a></td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.mainfeatures}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-h1wt"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Video</span></a></td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.video}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-ef9z"></td>
+                </tr>
+                <tr>
+                    <td class="tg-fq1u"><span style="font-weight:bold;color:#FFF">SELFIE CAMERA</span></td>
+                    <td class="tg-u0r1"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:underline">Single</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.selfieSingle}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-h1wt"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Features</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.selfieFeatures}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-h1wt"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Video</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.selfieVideo}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-ef9z"></td>
+                </tr>
+                <tr>
+                    <td class="tg-c7df"><span style="color:#FFF">SOUND</span></td>
+                    <td class="tg-ipo5"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Loud Speaker</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.loudspeakerS}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-h1wt"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Jack</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.jack}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-h1wt"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Frequency</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.frequency}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-ef9z"></td>
+                </tr>
+                <tr>
+                    <td class="tg-c7df"><span style="color:#FFF">COMMS</span></td>
+                    <td class="tg-ipo5"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">WLAN</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.wlan}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-ipo5"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Bluetooth</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.bluetooth}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-ipo5"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">GPS</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.gps}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-ipo5"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">NFC</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.nfc}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-ipo5"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Radio</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.radio}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-ipo5"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">USB</span></a></td>
+                    <td class="tg-o52w"><span style="font-style:normal">{{sp.usb}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-ef9z"></td>
+                </tr>
+                <tr>
+                    <td class="tg-fq1u"><span style="font-weight:bold;color:#FFF">FEATURES</span></td>
+                    <td class="tg-h1wt"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-style:inherit;text-decoration:none">Sensors</span></a></td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.Sensors}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-ef9z"></td>
+                </tr>
+                <tr>
+                    <td class="tg-90sl"><span style="font-weight:bold">BATTERY</span></td>
+                    <td class="tg-h1wt"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Type</span></a></td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.type}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-h1wt"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Charging</span></a>
+                    </td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.charging}}</span><br>
+                            
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-imp1"></td>
+                </tr>
+                <tr>
+                    <td class="tg-fq1u"><span style="font-weight:bold;color:#FFF">MISC</span></td>
+                    <td class="tg-lzu7"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Colors</span></a>
+                    </td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.colors}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-lzu7"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Models</span></a>
+                    </td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.modelss}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-lzu7"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">SAR</span></a>
+                    </td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.sar}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-lzu7"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">SAR EU</span></a>
+                    </td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.sarEu}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-lzu7"><a href="" target="_blank"
+                            rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Price</span></a>
+                    </td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.price}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-ef9z"></td>
+                    <td class="tg-ij0k"></td>
+                    <td class="tg-imp1"></td>
+                </tr>
+                <tr>
+                    <td class="tg-fq1u"><span style="font-weight:bold;color:#FFF">TESTS</span></td>
+                    <td class="tg-5qec"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Performance</span></a>
+                    </td>
+                    <td class="tg-kmeh"><span style="font-weight:bold;font-style:normal">{{sp.performance}}</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-5qec"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Display</span></a>
+                    </td>
+                    <td class="tg-kmeh"><a
+                            href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:bold;font-style:inherit;text-decoration:none;color:#000">{{sp.displayTest}}</span></a></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-5qec"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Camera</span></a>
+                    </td>
+                    <td class="tg-kmeh"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:bold;font-style:inherit;text-decoration:none;color:#000">{{sp.camera}}</span></a>
+    
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-5qec"><a href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Loudspeaker</span></a>
+                    </td>
+                    <td class="tg-kmeh"><a
+                            href=""
+                            target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:bold;font-style:inherit;text-decoration:none;color:#000">{{sp.loudspeaker}}</span></a></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-5qec"><a href="" target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:inherit;font-style:inherit;text-decoration:none">Battery Life</span></a></td>
+                    <td class="tg-kmeh"><a href="" target="_blank" rel="noopener noreferrer"><span
+                                style="font-weight:bold;font-style:inherit;text-decoration:none;color:#000">{{sp.battery_life}}</span></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    {% endfor %}
+
+
+    <!-- {% for sp in spll.iterator %}
+    <ul>
+        <li>
+                {{sp.technology}}
+                {{sp.twogBands}}
+        </li>
+    </ul>
+    {% endfor %} -->
+
+
+</div>
+
+
+
+{% endblock content %}
